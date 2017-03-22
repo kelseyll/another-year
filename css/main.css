@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #0000FF;
+    font-family: "HK Grotesk";
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+/* Containers */
+
+.center-container {
+    margin: 0 auto;
+}
+
+/* Title Graphic */
+.overlay {
+    overflow: hidden;
+    text-align: center;
+}
+
+.overlay div {
+    padding: 0 8px;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+    letter-spacing: 0.2px;
+}
+
+/* Information */
+
+.maininfo {
+    width: 883px;
+    margin: 100px 0;
+}
+
+.flex {
+    display: flex;
+    -webkit-display: flex;
+}
+
+._horizontal__center {
+    align-content: center;
+    -webkit-align-content: center;
+}
+
+._direction__column {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
