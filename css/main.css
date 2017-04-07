@@ -19,9 +19,16 @@ h1 {
 .lots-of-stairs {
     overflow: hidden;
 }
+.hider {
+    opacity: 0;
+}
+.lots-of-stairs {
+    background: url('../images/stairs2.svg');
+    width: 100%;
 
+}
 .lots-of-stairs img {
-    margin-left: -170px;
+    max-width: 100%;
 }
 
 /* Title Graphic */
