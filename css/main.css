@@ -9,9 +9,13 @@ html {
     color: white;
 }
 
+body {
+    letter-spacing: 1.3px;
+}
+
 h1 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.2px;
     margin: 30px 0;
 }
@@ -35,14 +39,40 @@ h1 {
 .title {
     cursor: pointer;
     width: 755px;
-    transform: translateY(-8px);
 }
 
 /* Information */
 
 .maininfo {
+    color: #e8f7f6;
     width: 755px;
-    margin: 100px 0;
+    margin: 110px 0 50px;
+}
+
+.maininfo p {
+    font-size: 38px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-bottom: 52px;
+}
+
+.maininfo span {
+    color: #FFF;
+}
+
+p.small {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+/* Catalogue */
+.catalogue {
+    width: 1200px;
+}
+
+.catalogue-mockup {
+    width: 100%;
 }
 
 /* Animations */
@@ -56,8 +86,16 @@ h1 {
     margin: 40px 0;
 }
 
-/* Flexbox */
+/* Grid */
+.row {
+    display: inline-block;
+}
 
+.half {
+    width: 50%;
+}
+
+/* Flexbox */
 .flex {
     display: flex;
     -webkit-display: flex;
