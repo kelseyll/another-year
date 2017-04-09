@@ -35,12 +35,21 @@ section {
     margin: 30px 0;
 }
 
+section.large {
+    margin: 150px 0 0;
+}
+
 .hider {
     opacity: 0;
 }
 
+.stairs {
+    transform: translateY(-44px);
+}
+
 .lots-of-stairs,
-.lots-of-stairs__flipped {
+.lots-of-stairs__flipped,
+.lots-of-stairs__middle  {
     overflow: hidden;
     background: url('../images/stairs2.svg');
     width: 100%;
@@ -48,12 +57,17 @@ section {
 }
 
 .lots-of-stairs img,
-.lots-of-stairs__flipped img {
+.lots-of-stairs__flipped img,
+.lots-of-stairs__middle img  {
     max-width: 100%;
 }
 
 .lots-of-stairs__flipped {
     background: url('../images/stairs-flipped.svg');
+}
+
+.lots-of-stairs__middle {
+    background: url('../images/stairs-middle.svg');
 }
 
 /* Title Graphic */
