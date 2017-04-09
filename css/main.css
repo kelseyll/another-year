@@ -49,6 +49,8 @@ section.large h1 {
 
 .stairs {
     transform: translateY(-44px);
+    -webkit-transform: translateY(-44px);
+    -ms-transform: translateY(-44px);
 }
 
 .lots-of-stairs,
@@ -142,7 +144,7 @@ p.small {
 /* Flexbox */
 .flex {
     display: flex;
-    -webkit-display: flex;
+    display: -webkit-flex;
 }
 
 ._horizontal__center {
@@ -163,4 +165,30 @@ p.small {
 ._alignself__baseline {
     align-self: baseline;
     -webkit-align-self: baseline;
+}
+
+@media (max-width: 850px) {
+    section.large h1 {
+        font-size: 50px;
+    }
+    h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    p,
+    .maininfo p,
+    .uviclogo,
+    h1 {
+        padding: 0 20px;
+        text-align: left;
+        font-weight: 500;
+    }
+    p,
+    .maininfo p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .maininfo {
+        width: 100%;
+    }
 }
