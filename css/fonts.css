@@ -11,17 +11,3 @@
   font-weight: 500;
   font-style: 500;
 }
-
-@font-face {
-  font-family: "HK Grotesk";
-  src:url('../fonts/HKGrotesk-Medium.ttf') format('truetype');
-  font-weight: 400;
-  font-style: 400;
-}
-
-@font-face {
-  font-family: "HK Grotesk";
-  src:url('../fonts/HKGrotesk-light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: 300;
-}
