@@ -14,25 +14,46 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 38px;
+    line-height: 58px;
     font-weight: 700;
     letter-spacing: 0.2px;
     margin: 30px 0;
 }
 
-.lots-of-stairs {
-    overflow: hidden;
+ul {
+    margin: 0 0 0 50px;
+    list-style: none;
+    letter-spacing: 0.1px;
 }
+
+a {
+    color: white;
+}
+
+section {
+    margin: 30px 0;
+}
+
 .hider {
     opacity: 0;
 }
-.lots-of-stairs {
+
+.lots-of-stairs,
+.lots-of-stairs__flipped {
+    overflow: hidden;
     background: url('../images/stairs2.svg');
     width: 100%;
 
 }
-.lots-of-stairs img {
+
+.lots-of-stairs img,
+.lots-of-stairs__flipped img {
     max-width: 100%;
+}
+
+.lots-of-stairs__flipped {
+    background: url('../images/stairs-flipped.svg');
 }
 
 /* Title Graphic */
@@ -50,9 +71,10 @@ h1 {
 }
 
 .maininfo p {
-    font-size: 38px;
-    line-height: 58px;
-    font-weight: 700;
+    letter-spacing: 0.2px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
     margin-bottom: 52px;
 }
 
