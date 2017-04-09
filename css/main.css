@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 html {
     display: none;
     background-color: #c3d7d3;
